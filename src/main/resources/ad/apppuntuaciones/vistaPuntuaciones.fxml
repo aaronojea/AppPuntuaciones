@@ -5,19 +5,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="738.0" spacing="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.apppuntuaciones.ControladorPuntuaciones">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="775.0" spacing="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ad.apppuntuaciones.ControladorPuntuaciones">
    <children>
-      <VBox prefHeight="429.0" prefWidth="328.0" spacing="10.0" style="-fx-background-color: #fb9191;">
+      <VBox prefHeight="363.0" prefWidth="346.0" spacing="10.0" style="-fx-background-color: #fb9191;">
          <children>
             <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="JUEGOS">
                <font>
                   <Font name="Impact" size="24.0" />
                </font>
             </Label>
-            <TableView fx:id="tblJuegos" prefHeight="241.0" prefWidth="306.0">
+            <TableView fx:id="tblJuegos" prefHeight="305.0" prefWidth="271.0">
               <columns>
                 <TableColumn fx:id="colIdJuego" prefWidth="91.0" text="ID" />
-                <TableColumn fx:id="colNombreJuego" prefWidth="214.0" text="Nombre" />
+                <TableColumn fx:id="colNombreJuego" prefWidth="179.0" text="Nombre" />
               </columns>
                <VBox.margin>
                   <Insets top="10.0" />
@@ -27,19 +27,19 @@
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding></VBox>
-      <VBox prefHeight="429.0" prefWidth="384.0" spacing="10.0" style="-fx-background-color: #fb9191;">
+      <VBox prefHeight="369.0" prefWidth="510.0" spacing="10.0" style="-fx-background-color: #fb9191;">
          <children>
             <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="PUNTUACIONES">
                <font>
                   <Font name="Impact" size="24.0" />
                </font>
             </Label>
-            <TableView fx:id="tblPuntuaciones" prefHeight="239.0" prefWidth="362.0">
+            <TableView fx:id="tblPuntuaciones" prefHeight="306.0" prefWidth="435.0">
               <columns>
-                <TableColumn fx:id="colIdPuntuacion" prefWidth="58.0" text="ID" />
-                <TableColumn fx:id="colNombrePuntuacion" prefWidth="98.0" text="Nombre" />
-                  <TableColumn fx:id="colPuntuacion" prefWidth="82.0" text="Puntuación" />
-                  <TableColumn fx:id="colIdJuegoPuntuacion" prefWidth="123.0" text="Nombre juego" />
+                <TableColumn fx:id="colIdPuntuacion" prefWidth="65.0" text="ID" />
+                <TableColumn fx:id="colNombrePuntuacion" prefWidth="110.0" text="Nombre" />
+                  <TableColumn fx:id="colPuntuacion" prefWidth="102.0" text="Puntuación" />
+                  <TableColumn fx:id="colIdJuegoPuntuacion" prefWidth="154.0" text="Nombre juego" />
               </columns>
                <VBox.margin>
                   <Insets top="10.0" />
