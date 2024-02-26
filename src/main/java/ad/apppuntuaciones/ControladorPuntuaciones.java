@@ -62,7 +62,7 @@ public class ControladorPuntuaciones {
     private void cargarJuegos() {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(BASE_URL + "/api/juegos"))
+                .uri(URI.create(BASE_URL + "/api/juegos/alfabetico"))
                 .build();
 
         client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
@@ -74,7 +74,7 @@ public class ControladorPuntuaciones {
     private void cargarPuntuaciones() {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(BASE_URL + "/api/puntuaciones"))
+                .uri(URI.create(BASE_URL + "/api/puntuaciones/alfabetico"))
                 .build();
 
         client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
