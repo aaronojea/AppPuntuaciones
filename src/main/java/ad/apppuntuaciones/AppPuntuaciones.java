@@ -1,5 +1,12 @@
 package ad.apppuntuaciones;
 
+/*
+ * Clase: ControladorPruebas
+ * Autor: Aarón Ojea Olmos
+ * Fecha de creación: 2024
+ * Descripción-Enunciado: Clase AppPuntuación, es la apliación principal que ejecuta la vista.
+ */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

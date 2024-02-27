@@ -1,5 +1,12 @@
 package ad.apppuntuaciones;
 
+/*
+ * Clase: ControladorPruebas
+ * Autor: Aarón Ojea Olmos
+ * Fecha de creación: 2024
+ * Descripción-Enunciado: Clase controlador de la vistaPuntuaciones, aquí se realizan los métodos para recoger los datos mediante la API y mostrarlos en las tablas.
+ */
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
